@@ -1,5 +1,5 @@
 /*
-서버 프로그램으로는 hello_client.c를 이용합니다.
+서버 프로그램으로는 hello_server.c를 이용합니다.
 */
 #include <stdio.h>
 #include <stdlib.h>
