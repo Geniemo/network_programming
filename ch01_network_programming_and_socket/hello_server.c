@@ -36,7 +36,7 @@ int main(int argc, char* argv[]) {
         error_handling("bind() error");
 
     // listen 함수를 호출해 소켓이 연결요청을 받아들일 수 있게 한다.
-    if (listen(serv_sock, 5) == 1)
+    if (listen(serv_sock, 5) == -1)
         error_handling("listen() error");
 
     clnt_addr_size = sizeof(clnt_addr);
